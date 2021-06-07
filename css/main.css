@@ -1,0 +1,387 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Arial;
+    font-size: 16px;
+    color: #fff;
+    background: #be457c;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px 0 20px 0;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    padding: 10px 0 10px 15px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #440522;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    padding: 5px 0 5px 10px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #be457c;
+}
+
+h4 {
+    margin: 0;
+    padding: 5px 0 5px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #be457c;
+}
+
+.price {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.price span {
+    font-size: 16px;
+    color: #02ff74;
+}
+
+.buynow a {
+    display: block;
+    float: left;
+    width: 80px;
+    padding: 1px 0;
+    margin: 0 15px 10px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background: #be457c;
+    border-bottom: 1px solid #f285b6;
+}
+
+.cleaner {
+    clear: both;
+    width: 100%;
+    height: 1px;
+    font-size: 1px;
+}
+
+
+/* .cleaner_with_height {
+    clear: both;
+    width: 100%;
+    height: 30px;
+    font-size: 1px;
+} */
+
+#container {
+    width: 940px;
+    margin: 0 auto;
+    border: 10px solid #f2d9ef;
+}
+
+
+/* top panel */
+
+#top_panel {
+    overflow: hidden;
+    width: 880px;
+    height: 32px;
+    padding: 10px 30px;
+    background: #c82c74;
+    border-bottom: 1px solid #000000;
+}
+
+#top_panel #title_section {
+    float: left;
+    width: 400px;
+    padding-right: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#top_panel #shopping_cart {
+    float: right;
+    width: 400px;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#top_panel #shopping_cart span {
+    font-weight: normal;
+}
+
+
+/* end of top panel */
+
+
+/* header panel */
+
+#container #header {
+    overflow: hidden;
+    width: 880px;
+    height: 70px;
+    padding: 15px 30px;
+    background: #ebbce5 url(../images/header_bg.jpg) bottom right no-repeat;
+}
+
+
+/* end of header panel */
+
+
+/* header panel */
+
+#container #banner {
+    overflow: hidden;
+    width: 880px;
+    height: 190px;
+    /* + 60 for padding top and bottom */
+    padding: 30px 30px;
+    background: #ffffff url(../images/banner_bg.jpg) top right no-repeat;
+}
+
+
+/* end of header panel */
+
+
+/* menu */
+
+#menu_panel {
+    overflow: hidden;
+    width: 880px;
+    height: 40px;
+    padding: 0 30px;
+    background: #440522;
+}
+
+#menu_panel ul {
+    width: 930px;
+    margin: 0;
+    padding: 5px 0 0 0;
+    list-style: none;
+}
+
+#menu_panel ul li a {
+    float: left;
+    width: 110px;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ebbce5;
+    border-left: 1px solid #5f3b11;
+}
+
+#menu_panel li a:hover,
+#menu_panel li .current {
+    color: #ff4ad8;
+}
+
+
+/* end of menu */
+
+
+/* content */
+
+#content {
+    width: 880px;
+    padding: 30px 30px 0 30px;
+    background: #811044;
+}
+
+#content #content_left {
+    float: left;
+    width: 630px;
+}
+
+#content_left .product_box {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
+#content_left .product_box img {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+#content #content_right {
+    float: right;
+    width: 220px;
+}
+
+.right_section {
+    width: 210px;
+    border: 5px solid #f8c7f2;
+    background: #ebbce5;
+    margin-bottom: 30px;
+}
+
+.right_section_content {
+    width: 180px;
+    padding: 15px;
+}
+
+.right_section_content h3 {
+    margin-bottom: 0px;
+}
+
+.right_section_content form {
+    padding: 0;
+    margin: 0;
+}
+
+.right_section_content input {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.right_section_content ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right_section_content li {
+    margin-bottom: 3px;
+}
+
+.right_section_content b {
+    color: #be457c;
+    padding: 0 0 0 7px;
+    text-decoration: none;
+}
+
+.right_section_content li a {
+    color: #be457c;
+    padding: 0 0 0 20px;
+    text-decoration: underline;
+    background: url(../images/list_icon.gif) center left no-repeat;
+}
+
+
+/* .right_section_content li a:hover {
+    color: #440522;
+    text-decoration: none;
+    background: url(images/list_icon_hover.gif) bottom left no-repeat;
+} */
+
+
+/* end of content */
+
+
+/*  footer */
+
+#footer_panel {
+    overflow: hidden;
+    width: 900px;
+    padding: 15px 20px;
+    background: #333333;
+}
+
+#footer_panel img {
+    margin: 0 5px 0 0;
+}
+
+#footer_panel #footer_left {
+    float: left;
+    width: 340px;
+    padding: 0 25px 0 0;
+    margin: 0 15px 0 0;
+    border-right: 1px solid #4c4c4c;
+}
+
+#footer_panel #footer_right {
+    float: right;
+    width: 490px;
+    text-align: left;
+}
+
+
+/* end of footer */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/*###########################################*/
+
+
+/* Add padding to containers */
+
+.container_register_login {
+    padding: 16px;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* Set a style for the submit button */
+
+.registerloginbtn {
+    background-color: #4CAF50;
+    font-size: 20px;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerloginbtn:hover {
+    opacity: 1;
+}
