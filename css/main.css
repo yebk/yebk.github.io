@@ -201,6 +201,30 @@ h4 {
     background: #811044;
 }
 
+#content a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#content a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#content a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 #content #content_left {
     float: left;
     width: 630px;
@@ -385,3 +409,22 @@ hr {
 .registerloginbtn:hover {
     opacity: 1;
 }
+
+
+/* flower rotation */
+
+.rotate {
+    animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* flower rotation */
